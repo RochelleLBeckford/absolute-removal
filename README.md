@@ -1,6 +1,6 @@
 <img src="img/icons/tori-gates-of-the-cherry-blossom village.png" width="100%" height="400">
 
-# 🌸 Absolute Removal 🌸
+# <p align="center"> 🌸 Absolute Removal 🌸</p>
 
 ## Practice: Creating a Webpage building upon HTML basics and understanding how to use CSS Basics
 
@@ -12,12 +12,12 @@
 
 <hr>
 
-## 💫 Overview:
+## <p align="center">💫 Overview</p>
 -   [ ] This is a CSS tutorial website that teaches the user about <b>position:absolute</b> in two parts. Part one breaks down how absolute positioning removes elements from the normal flow of the webpage and positions them relative to parent containers. Part two applies these concepts through a mock tutoring company website.
 
 <hr>
 
-## 🎨 Key Design Features:
+## <p align="center">🎨 Key Design Features</p>
 -   [ ] <b> Cherry Blossom theme for the color scheme across both pages </b>
 -   [ ] <b> Gradient Dividers </b> between sections
 -   [ ] <b> Flexbox layout </b> for header and footer alignment
@@ -98,7 +98,7 @@
 
 <hr>
 
-## &lt;/&gt; Semantic Outline of the webpage:
+## <p align="center">&lt;/&gt; Semantic Outline of the webpage</p>
 
 -   [ ] The &lt;header&gt; element:
     -   [ ] Is used for the beginning of the webpage
@@ -146,7 +146,7 @@
 
 <hr>
 
-## ✨ Encompassed Technologies:
+## <p align="center">✨ Encompassed Technologies</p>
 -   [ ] HTML:
     -   [ ] Will be the structure and skeleton of how the app will appear on the webpageWill be the structure and skeleton of how the app will appear on the webpage
 -   [ ] CSS:
