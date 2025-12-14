@@ -94,9 +94,7 @@
     -   [ ] #blue element -> positioned relative to #outer-div (its positioned parent)
     -   [ ] #green element -> positioned relative to the &lt;body&gt; (no positioned parent)
 
-    -   [ ] The visual example of absolute positioning:
-    <br>
-    <img src="img/main/rendered-code.png" alt="Rendered Absolute Positioning">
+    -   [ ] The visual example of absolute positioning: <img src="img/main/rendered-code.png" alt="Rendered Absolute Positioning">
 
 <hr>
 
