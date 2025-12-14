@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Absolute Removal</title>
+    <!-- & Link to the CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ This is the space near the top of the webpage that will make it easier to understand and navigate the webpage
+    -->
+    <header class="flex-container">
+        <img
+            class="header-img"
+            src="img/header/mitsuri-90s-drawing.png"
+            alt="Mitsuri 90's Drawing"
+        >
+        <hr class="vertical-divider">
+        <h1>🌸 Absolute Removal 🌸</h1>
+        <hr class="vertical-divider">
+        <img
+            class="header-img"
+            src="img/header/mitsuri-90s-drawing.png"
+            alt="Mitsuri 90's Drawing"
+        >
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of information
+        -->
+        <!-- & This section will discuss what position: absolute is -->
+        <section>
+            <h2>Position: Absolute</h2>
+            <hr class="title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    If we position an element with "absolute", we break it out of the page's flow. If we then give the element a "top", "right", "bottom", and/or "left" property. It is placed according to the top-left of its closest non-static element.
+                </li>
+                <li>
+                    For instance:
+                    <br>
+                    <img class="main-img" src="img/main/html-code-for-div-syntax-with-an-id.png" alt="HTML Code for Div Syntax with an id" width="275">
+                </li>
+                <li>
+                    The above shows "#red", "#blue", and "#green" elements, with one of them nested inside of an "#outside-div" element. If we set the "position" of "#outer-div" to "relative" and the "#blue" and "#green" elements to "absolute":
+                    <br>
+                    <img class="main-img" src="img/main/css-code-to-style-ids.png" alt="CSS Code to style ids" width="275">
+                </li>
+                <li>
+                    This is the rendered code:
+                    <br>
+                    <img class="main-img" src="img/main/rendered-code.png" alt="Rendered HTML code and the CSS styling">
+                </li>
+                <li>
+                    Because the "#blue" element is inside of another positioned element, it is absolutely positioned in the top-left corner of "outer-div" when "top" and "left" are set to zero.
+                </li>
+                <li>
+                    Conversely, the "#green" element is absolutely positioned at the top-left corner of the &lt;body&gt; element since that is the closest positioned parent. We've moved it 30px and 55px from the top and left edges of the screen.
+                </li>
+            </ul>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended sources or parts of the webpage
+            ~ In the <a> element -> use the following for the "href" attribute
+                ~ href = "/privacy"
+            ~ Also use the "target" attribute to open the link in anew web browser tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> this is the symbol for copyright
+    -->
+    <footer class="flex-container">
+        <img class="footer-img" src="img/footer/joyful mitsuri.png" alt="Joyful Mitsuri">
+        <hr class="vertical-divider">
+        <p>&copy; 2025 EtariaL33. All rights reserved.</p>
+        <hr class="vertical-divider">
+        <img class="footer-img" src="img/footer/joyful mitsuri.png" alt="Joyful Mitsuri">
+    </footer>
+</body>
+</html>
